@@ -2,6 +2,9 @@ def greeting(name):
     print(f"Hello {name}")
     print("Have a good day")
 
+def getAge(yob):
+    return 2023 - int(yob)
+
 def main():
     print("Enter your name: ", end='')
     name = input()
