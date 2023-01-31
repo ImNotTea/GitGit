@@ -1,0 +1,1 @@
+Hello, I wish I would receive an offer from Bosch this morning.
