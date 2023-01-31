@@ -1,6 +1,6 @@
 
 class Human:
-    def __init__(self, name, gender, yob, homeTown):
+    def __init__(self, name, gender, yob, homeTown, id):
         '''
         Initialize personal information
         
@@ -8,11 +8,13 @@ class Human:
         gender: male, female or lgbt
         yob: year of born
         homeTown: home town
+        id: id code
         '''
         self.__name = name
         self.__gender = gender
         self.__yob = yob
         self.__homeTown = homeTown
+        self.__id = id
     
     def showInfo(self):
         '''
@@ -22,3 +24,4 @@ class Human:
         print("Year of born: ", self.__yob)
         print("Gender: ", self.__gender)
         print("Home town: ", self.__homeTown)
+        print("ID: ", self.__id)
